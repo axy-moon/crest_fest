@@ -1,0 +1,87 @@
+:root {
+    --logoColor: #ff41a1;
+    --logo2Color: #8304df;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    background-image: url("double-bubble-outline.png");
+}
+
+.logo img {
+    width: 75%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin:0 50px 0 25px ;
+
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 12px;
+    position: relative;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav ul li:hover {
+    color: var(--logoColor);
+}
+
+.nav ul li::after {
+    content: '';
+	width:0%;
+	height: 2px;
+	background: var(--logoColor);
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+
+.nav ul li:hover::after {
+    width: 100%;
+}
+
+.front {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px ;
+}
+
+
+.main {
+    padding-top: 100px;
+    font-family: monospace;
+    font-size: 90px;
+}
+
+
+.main-text {
+    margin-left: 100px;
+}
+
+
+.main-text p {
+    font-size: 20px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 20px;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+    background: linear-gradient(to right, #ff41a1, #ee1fad, #d600bc, #b400cd, #8304df);
+    border: 0;
+    border-radius: 6px;
+
+}
