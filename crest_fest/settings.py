@@ -119,7 +119,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR,'C:/Users/canot/Desktop/crest_fest/crest_fest/static')
+    os.path.join(BASE_DIR,'C:/Users/exam/Desktop/crest_fest/crest_fest/static')
 ]
 STATIC_ROOT = os.path.join(BASE_DIR,'assets')
 # Default primary key field type
